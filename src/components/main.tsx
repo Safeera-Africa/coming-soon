@@ -16,7 +16,7 @@ const Main = () => {
       <form className="flex flex-col gap-4 mt-4 text-[14px] max-w-[480px] mx-auto">
         <label className="self-start" htmlFor="emailInput">Email*</label>
         <input required className="bg-[#d0d5dd] w-full mx-auto p-4 rounded border border-white text-gray-900 :hover-outline" type="email" id="emailInput" />
-        <div className="flex items-center justify-center gap-6 mt-6">
+        <div className="flex max-sm:flex-col items-center justify-center gap-6 mt-6">
           <label htmlFor="" className="flex items-center justify-center gap-3">
             <input type="checkbox" checked required />
             <p>Yes, subscribe me to your newsletter.*</p>
